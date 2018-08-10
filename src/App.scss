@@ -1,0 +1,38 @@
+
+@import 'common.scss';
+
+body * {
+  float:left;
+}
+
+body {
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:0px;
+  margin:0px;
+  background-color:$neutral4;
+}
+
+header {
+  height:80px;
+  width:100%;
+  margin:0px;
+
+  h1 {
+    color:$neutral-3;
+    letter-spacing: +0.4px;
+    margin:40px;
+    text-align:center;
+    width:calc(100% - 80px);
+    font-weight:600;
+  }
+}
+
+.imageContainer {
+  width:calc(100% - 40px);
+  display:flex;
+  flex-direction: ltr;
+  flex-wrap: wrap;
+  margin:20px;
+}

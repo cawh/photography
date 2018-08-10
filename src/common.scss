@@ -1,0 +1,23 @@
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
+
+$theme: #0064e0;
+$theme-1: shade($theme, 10%);
+$theme-2: shade($theme, 20%);
+$theme1: tint($theme, 10%);
+$theme2: tint($theme, 20%);
+$white: #ffffff;
+$neutral1: shade($white, 10%);
+$neutral2: shade($white, 20%);
+$neutral3: shade($white, 30%);
+$neutral4: shade($white, 40%);
+$neutral1: shade($white, 50%);
+$neutral2: shade($white, 60%);
+$neutral3: shade($white, 70%);
+$neutral4: shade($white, 80%);
+$neutral4: shade($white, 90%);

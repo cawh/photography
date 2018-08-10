@@ -1,0 +1,23 @@
+@import '../../common.scss';
+
+image {
+    width:200px;
+    height:auto;
+    flex-grow: 1;
+    width:25%;
+    margin:20px;
+    transition:0.3s all ease;
+    cursor:pointer;
+    border-radius:5px;
+    overflow: hidden;
+    box-shadow: 0 0px 1px 0px rgba(0,0,0,0.32);
+
+    img {
+        width:100%;
+    }
+
+    &:hover {
+        transform: translate(0px, -2px);
+        box-shadow: 0 2px 12px 0px rgba(0,0,0,0.32),  0 8px 24px 0px rgba(0,0,0,0.24);
+    }
+}
